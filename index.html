@@ -3,37 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web</title>
+    <title>Neural Genius</title>
+    <script type="module">
+        import Chatbox from 'https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js';
+      
+        const widget = await Chatbox.initBubble({
+          agentId: 'cm24vc68a1gzxz4riyawshp33',
+        });
+      
+        // open the chat bubble
+        widget.open();
+      
+        // close the chat bubble
+        widget.close()
+      
+        // or 
+        widget.toggle()
+      </script>
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a mi sitio web</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="inicio">
-        <h2>Inicio</h2>
-        <p>Este es el contenido de la página de inicio.</p>
-    </section>
-
-    <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>Aquí puedes escribir una breve descripción sobre ti.</p>
-    </section>
-
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Información de contacto aquí.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
-    </footer>
+    <img src="ngweb.webp" alt="Neural Genius web">
 </body>
 </html>
